@@ -146,7 +146,7 @@ class Guerriero extends Personaggio {
     // Override del metodo attacca per il Guerriero
     @Override
     public void attacca() {
-        System.out.println(getNome() + "Il guerriero attacca con ...");
+        System.out.println(getNome() + "Il guerriero attacca a colpi di 'Welcome back' ");
         int danni = 20; //il guerriero infligga 20 danni con ogni attacco
         System.out.println("Hai inflitto " + danni + " danni!");
     }
