@@ -163,7 +163,7 @@ class Mago extends Personaggio {
     // Override del metodo attacca per il Mago
     @Override
     public void attacca() {
-        System.out.println(getNome() + "fa una magia e fa spuntare una piadina");
+        System.out.println(getNome() + "con l'incantesimo 'chi domanda comanda' ruba una mozzarella");
         int danni = 15; 
         System.out.println("Hai inflitto " + danni + " danni!");
     }
@@ -179,7 +179,7 @@ class Ladro extends Personaggio {
     // Override del metodo attacca per il Ladro
     @Override
     public void attacca() {
-        System.out.println(getNome() + "con l'incantesimo 'chi domanda comanda' ruba una mozzarella");
+        System.out.println(getNome() + "furtivamente ruba una pizza");
         int danni = 10; 
         System.out.println("Non molto efficace, ma hai inflitto " + danni + " danni!");
        
@@ -248,10 +248,10 @@ class Livello {
                 giocatore = new Guerriero("Mirko");
                 break;
             case 2:
-                giocatore = new Mago("Tommy");
+                giocatore = new Mago("Sante");
                 break;
             case 3:
-                giocatore = new Ladro("Sante");
+                giocatore = new Ladro("Tommy");
                 break;
         }
       
