@@ -245,13 +245,13 @@ class Livello {
         Personaggio giocatore = null;
         switch (sceltaPersonaggio) {
             case 1:
-                giocatore = new Guerriero("Mirko");
+                giocatore = new Guerriero("Mikk");
                 break;
             case 2:
-                giocatore = new Mago("Sante");
+                giocatore = new Mago("San");
                 break;
             case 3:
-                giocatore = new Ladro("Tommy");
+                giocatore = new Ladro("Tom");
                 break;
         }
       
